@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-      vue2 tempalte(version:1.0.1)
+      vue2 tempalte(version:1.0.3)
   </div>
 </template>
 
