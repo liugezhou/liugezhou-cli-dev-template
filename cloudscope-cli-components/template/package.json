@@ -34,7 +34,8 @@
     "babel.config.js",
     "jest.config.js",
     "README.md",
-    "tsconfig.json"
+    "tsconfig.json",
+    "examples"
   ],
   "dependencies": {
     "core-js": "^3.6.5",
