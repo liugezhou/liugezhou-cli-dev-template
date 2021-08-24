@@ -4,6 +4,8 @@ export default {
   output: {
     name,
     file: file('esm'),
-    format: 'es'
+    format: 'es',
+    banner:'/* eslint-disable*/',
+    footer:'/* Powered by liugezhou.com*/'
   }
 }
