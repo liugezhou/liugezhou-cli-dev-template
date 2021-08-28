@@ -2,6 +2,9 @@
   "name": "<%= className%>",
   "version": "<%= version%>",
   "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "author": "liugezhou",
   "description": "<%= description%>",
   "scripts": {
@@ -12,6 +15,7 @@
     "lint": "vue-cli-service lint --max-warnings 5",
     "build:esm": "rollup --config build/rollup.esm.config.js",
     "build:umd": "rollup --config build/rollup.umd.config.js",
+    "build:demo":"npm install && npm build && cd examples && npm install && npm run build",
     "clean": "rimraf ./dist",
     "prepublishOnly": "npm run lint && npm run test&& npm run build"
   },
